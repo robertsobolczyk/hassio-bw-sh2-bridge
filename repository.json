@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant Ring Bridge",
-  "url": "https://github.com/helmut-hoffer-von-ankershoffen/hassio-ring-bridge",
-  "maintainer": "Helmut Hoffer von Ankershoffen <https://helmut.hoffer-von-ankershoffen.me>"
+  "name": "Home Assistant BW-SH2 Bridge",
+  "url": "https://github.com/robertsobolczyk/hassio-bw-sh2-bridge",
+  "maintainer": "Robert Sobolczyk <https://github.com/robertsobolczyk>"
 }

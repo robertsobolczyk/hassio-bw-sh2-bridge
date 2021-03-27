@@ -1,19 +1,19 @@
 {
-    "name": "ring_bridge",
-    "version": "1.0.1",
-    "description": "Ring Bridge",
-    "author": "Helmut Hoffer von Ankershoffen <https://helmut.hoffer-von-ankershoffen.me>",
+    "name": "hassio-bw-sh2-bridge",
+    "version": "1.0.0",
+    "description": "Home Assistant BW-SH2 Bridge",
+    "author": "Robert Sobolczyk <https://github.com/robertsobolczyk>",
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
     },
     "dependencies": {
         "dotenv-extended": "^2.8.0",
-        "ring-client-api": "9.12",
+        "express": "^4.17.1",
         "http": "^0.0.0",
-        "zlib": "^1.0",
+        "tuyapi": "^6.3.2",
         "url": "^0.11",
-        "express": "^4.17.1"
+        "zlib": "^1.0"
     },
     "devDependencies": {
         "@types/node": "^14.0.23",

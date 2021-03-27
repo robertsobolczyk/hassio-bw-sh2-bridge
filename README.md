@@ -1,4 +1,8 @@
-# hassio-ring-bridge
+# hassio-bw-sh2-bridge
+
+Blitzwolf BW-SH2 Humidifier Bridge for Home Assistant, exposing current state and allowing you to update it.
+
+@TODO You need to get key and id of your humidifier
 
 Ring Bridge for Home Assistant, exposing get/set of location mode. The Ring token is automatically refreshed.
 
@@ -8,9 +12,9 @@ The bridge can be used to automatically set the Ring location mode based on auto
 
 ## Installation
 
-1) In Home Assistant go to `Supervisor` > `Add-on Store` > dots top-right > `Repositories` and add the repository URL `https://github.com/helmut-hoffer-von-ankershoffen/hassio-ring-bridge`.
-2) Click on `Ring Bridge` > `INSTALL` > Wait for a few min, as Docker container with NodeJS webservice is built locally.
-3) While you wait, call `npx -p ring-client-api ring-auth-cli` on your Mac or Windows machine to generate a refresh token. When generated click on `Configuration`, set the value of `refresh_token` to the token generated and click `SAVE`.
+1) In Home Assistant go to `Supervisor` > `Add-on Store` > dots top-right > `Repositories` and add the repository URL `https://github.com/robertsobolczyk/hassio-bw-sh2-bridge`.
+2) Click on `Home Assistant BW-SH2 Bridge` > `INSTALL` > Wait for a few min, as Docker container with NodeJS webservice is built locally.
+3) Prepare your key & id and click on `Configuration`, set the values of `humidifier_id` and `humidifier_key` and click `SAVE`.
 4) Click on `START` after enabling `Watchdog` and optionally `Auto update`. Click on `LOGS` and `REFRESH` to see everything is working as expected.
 
 ## Sensor
