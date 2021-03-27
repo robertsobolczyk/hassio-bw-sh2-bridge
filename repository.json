@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant BW-SH2 Bridge",
-  "url": "https://github.com/robertsobolczyk/hassio-bw-sh2-bridge",
+  "name": "Home Assistant BWSH2 Bridge",
+  "url": "https://github.com/robertsobolczyk/hassio-bwsh2-bridge",
   "maintainer": "Robert Sobolczyk <https://github.com/robertsobolczyk>"
 }

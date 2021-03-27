@@ -62,5 +62,5 @@ webservice.post('/location-mode', express.json(), async (req, res) => {
  **/
 console.log(`Starting listener on port ${port}.`)
 webservice.listen(port, () => {
-  console.log(`Home Assistant BW-SH2 Bridge is running on port ${port}.`);
+  console.log(`Home Assistant BWSH2 Bridge is running on port ${port}.`);
 })

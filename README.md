@@ -1,6 +1,6 @@
-# hassio-bw-sh2-bridge
+# hassio-bwsh2-bridge
 
-Blitzwolf BW-SH2 Humidifier Bridge for Home Assistant, exposing current state and allowing you to update it.
+Blitzwolf BWSH2 Humidifier Bridge for Home Assistant, exposing current state and allowing you to update it.
 
 @TODO You need to get key and id of your humidifier
 
@@ -11,8 +11,8 @@ The bridge can be used to automatically set the Ring location mode based on auto
 
 ## Installation
 
-1) In Home Assistant go to `Supervisor` > `Add-on Store` > dots top-right > `Repositories` and add the repository URL `https://github.com/robertsobolczyk/hassio-bw-sh2-bridge`.
-2) Click on `Home Assistant BW-SH2 Bridge` > `INSTALL` > Wait for a few min, as Docker container with NodeJS webservice is built locally.
+1) In Home Assistant go to `Supervisor` > `Add-on Store` > dots top-right > `Repositories` and add the repository URL `https://github.com/robertsobolczyk/hassio-bwsh2-bridge`.
+2) Click on `Home Assistant BWSH2 Bridge` > `INSTALL` > Wait for a few min, as Docker container with NodeJS webservice is built locally.
 3) Prepare your key & id and click on `Configuration`, set the values of `humidifier_id` and `humidifier_key` and click `SAVE`.
 4) Click on `START` after enabling `Watchdog` and optionally `Auto update`. Click on `LOGS` and `REFRESH` to see everything is working as expected.
 

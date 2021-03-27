@@ -1,7 +1,7 @@
 {
-    "name": "hassio-bw-sh2-bridge",
+    "name": "hassio-bwsh2-bridge",
     "version": "1.0.0",
-    "description": "Home Assistant BW-SH2 Bridge",
+    "description": "Home Assistant BWSH2 Bridge",
     "author": "Robert Sobolczyk <https://github.com/robertsobolczyk>",
     "main": "index.js",
     "scripts": {
